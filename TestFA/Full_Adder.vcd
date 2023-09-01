@@ -1,0 +1,56 @@
+$date
+	Wed Aug 30 22:54:29 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Full_Adder_Testbench $end
+$var wire 1 ! Sum $end
+$var wire 1 " Carry_out $end
+$var parameter 32 # time_limit $end
+$var reg 1 $ A $end
+$var reg 1 % B $end
+$var reg 1 & Carry_in $end
+$scope module FA1 $end
+$var wire 1 $ A $end
+$var wire 1 % B $end
+$var wire 1 & Carry_In $end
+$var wire 1 " Carry_out $end
+$var wire 1 ! Sum $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1100100 #
+$end
+#0
+$dumpvars
+0&
+0%
+0$
+0"
+0!
+$end
+#10
+1!
+1$
+#40
+1"
+0!
+1%
+#140
+0"
+0%
+0$
+#240
+$dumpoff
+x&
+x%
+x$
+x"
+x!
+$end
