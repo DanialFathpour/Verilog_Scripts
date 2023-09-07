@@ -1,5 +1,5 @@
 module Half_Adder(
-   input A, B,
+   	input A, B,
 	output Sum, Cout
 	);
 	assign #9 Sum = A ^ B ;
@@ -13,13 +13,13 @@ module Full_Adder (
     input Carry_In,
     output Sum,
     output Carry_out
-);
+	);
     assign Carry_out = A & B | A & Carry_In | B & Carry_In;
     assign Sum = A ^ B ^ Carry_In;
 endmodule
 
 module Carry_Save_Adder_Multiplier4bits(
-   input [3:0] A, B,
+   	input [3:0] A, B,
 	output [7:0] Product
     );
 	 
